@@ -32,7 +32,7 @@ class Graph:
         visited = set()
         # While the queue is not empty....
         while q.size() > 0:
-                # Dequeue the first vertex
+            # Dequeue the first vertex
             v = q.dequeue()
             # If that vertex has not been visited...
             # n(1) time

@@ -3,7 +3,6 @@ from util import Stack, Queue  # These may come in handy
 
 def earliest_ancestor(ancestors, starting_node):
     # Lets create our dictionary to store parents for each child
-
     parents = {}
     # Now we're creating our empty queue and enqueue
     # A path to our starting node
